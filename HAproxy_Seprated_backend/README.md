@@ -54,7 +54,7 @@ sudo systemctl start update-haproxy.service
 ```
 or
 ```bash
-sudo systemctl start update-haproxy.service
+sudo systemctl restart update-haproxy.service
 ```
 
 ### Customizing the Script
