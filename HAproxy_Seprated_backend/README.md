@@ -52,6 +52,10 @@ The systemd service created by the script is named `update-haproxy.service`. To 
 ```bash
 sudo systemctl start update-haproxy.service
 ```
+or
+```bash
+sudo systemctl start update-haproxy.service
+```
 
 ### Customizing the Script
 
