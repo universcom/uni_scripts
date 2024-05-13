@@ -35,11 +35,12 @@ This script performs several actions:
 
 The script creates the following directory structure:
 
-
+```
 /etc/haproxy/
 ├── base/
 ├── frontends/
 └── backends/
+```
 
 - `/base/`: Place your base HAProxy configuration here.
 - `/frontends/`: Place frontend-specific configurations here.
