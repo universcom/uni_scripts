@@ -50,14 +50,17 @@ The script creates the following directory structure:
 The systemd service created by the script is named `update-haproxy.service`. To manually trigger the configuration update and HAProxy restart, use:
 ```bash
 sudo systemctl start update-haproxy.service
+```
 
+### Customizing the Script
 
 The script is designed for generic use but might require adjustments based on specific requirements:
 
-Linux Distribution Specifics: Adjust the package installation commands based on your Linux distribution.
-HAProxy Version: Ensure compatibility with specific HAProxy versions.
-Configuration Requirements: Modify directory paths or configuration parameters according to your setup needs.
-Feel free to modify the script to suit your environment.
+- Linux Distribution Specifics: Adjust the package installation commands based on your Linux distribution.
+- HAProxy Version: Ensure compatibility with specific HAProxy versions.
+- Configuration Requirements: Modify directory paths or configuration parameters according to your setup needs.
+
+```Feel free to modify the script to suit your environment.```
 
 ### How to Use This README
 
